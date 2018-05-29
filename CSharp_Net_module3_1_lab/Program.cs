@@ -10,10 +10,7 @@ namespace CSharp_Net_module1_8_1_lab
     class Program
     {
 
-        static void Met1()
-        {
-
-        }
+      
 
         static void Main(string[] args)
         {
@@ -22,7 +19,7 @@ namespace CSharp_Net_module1_8_1_lab
             int number = 1024;
             PointerOperation pOpers = new PointerOperation();
             pOpers.ConvertToByte(number);
-            Met1();
+
             //8) invoke all methods
             // use declared variables as parameters of methods
             try
