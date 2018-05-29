@@ -23,28 +23,28 @@ namespace CSharp_Net_module1_8_1_lab
             unsafe
             {
                 // Convert to byte:
-                int* n = &number;
-                int a = (int)n;
-                byte b = (byte)n;
-                Console.WriteLine($"Int {a}");
+                //int* n = &number;
+                //int a = (int)n;
+                //byte b = (byte)n;
+                //Console.WriteLine($"Int {a}");
 
-                Console.WriteLine($"Byte {b}");
-                byte* p = (byte*)n;
+                //Console.WriteLine($"Byte {b}");
+                //byte* p = (byte*)n;
 
-                // 3) Display all bytes of number with poiter
-                // use loop and sizeof(type)
-                // increment the poiter
+                //// 3) Display all bytes of number with poiter
+                //// use loop and sizeof(type)
+                //// increment the poiter
 
-                System.Console.Write("The  bytes of the integer:");
-                // Display the  bytes of the int variable:
-                for (int i = 0; i < sizeof(int); ++i)
-                {
-                    System.Console.Write(" {0:X2}", *p);
-                    // Increment the pointer:
-                    p++;
-                }
-                System.Console.WriteLine();
-                System.Console.WriteLine("The value of the integer: {0}", number);
+                //System.Console.Write("The  bytes of the integer:");
+                //// Display the  bytes of the int variable:
+                //for (int i = 0; i < sizeof(int); ++i)
+                //{
+                //    System.Console.Write(" {0:X2}", *p);
+                //    // Increment the pointer:
+                //    p++;
+                //}
+                //System.Console.WriteLine();
+                //System.Console.WriteLine("The value of the integer: {0}", number);
 
                 // Note: don't forget to use unsafe
             }

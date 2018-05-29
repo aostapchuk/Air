@@ -9,6 +9,12 @@ namespace CSharp_Net_module1_8_1_lab
     // 0) allow unsafe code in build submenu of properties window of project
     class Program
     {
+
+        static void Met1()
+        {
+
+        }
+
         static void Main(string[] args)
         {
             // 7) Declare variables for parameters, set some value
@@ -16,7 +22,7 @@ namespace CSharp_Net_module1_8_1_lab
             int number = 1024;
             PointerOperation pOpers = new PointerOperation();
             pOpers.ConvertToByte(number);
-
+            Met1();
             //8) invoke all methods
             // use declared variables as parameters of methods
             try
